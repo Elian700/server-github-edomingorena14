@@ -33,3 +33,13 @@ Características principales del Codespace:
 ·Entorno persistente vinculado al repositorio
 
 Esta máquina virtual permite trabajar sin necesidad de instalar nada en el PC local y facilita la configuración del servidor dentro del propio ecosistema GitHub
+
+**Pasos básicos para poner en marcha el servidor**
+
+-Iniciar, Reiniciar y ver Status del servicio apache
+**sudo service apache2 start/restart/status **
+
+-Control de versiones con Git
+git add .
+git commit -m "Actualitzación del proyecto"
+git push
